@@ -1,0 +1,14 @@
+
+server:
+  port: 6777
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 12345678
+    username: root
+    url: jdbc:mysql://localhost:3306/flight_service-tbl
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
